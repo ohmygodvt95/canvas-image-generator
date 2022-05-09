@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Poppins";
+    url("./font/Poppins-Bold.otf") format("opentype"),
+}
+
+@font-face {
+    font-family: "PoppinsRegular";
+url("./font/Poppins-Regular.otf") format("opentype"),
+}
+
+.avt_img {
+    /* This rule is very important, please don't ignore this */
+    max-width: 100%;
+}
+
+.cropper-crop-box, .cropper-view-box {
+    border-radius: 50%;
+}
+
+.cropper-view-box {
+    box-shadow: 0 0 0 1px #39f;
+    outline: 0;
+}
